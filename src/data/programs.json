@@ -1,0 +1,396 @@
+{
+  "universities": [
+    {
+      "id": "waterloo",
+      "name": "University of Waterloo",
+      "province": "Ontario",
+      "programs": [
+        { "id": "waterloo-cs", "name": "Computer Science", "faculty": "Mathematics", "annualTuition": 17200, "years": 4, "coopAvailable": true, "coopTerms": 5, "avgCoopSalary": 33000, "avgStartingSalary": 97000, "avgMidCareerSalary": 148000 },
+        { "id": "waterloo-se", "name": "Software Engineering", "faculty": "Engineering", "annualTuition": 19800, "years": 4, "coopAvailable": true, "coopTerms": 6, "avgCoopSalary": 34500, "avgStartingSalary": 102000, "avgMidCareerSalary": 158000 },
+        { "id": "waterloo-ce", "name": "Computer Engineering", "faculty": "Engineering", "annualTuition": 19800, "years": 4, "coopAvailable": true, "coopTerms": 6, "avgCoopSalary": 32000, "avgStartingSalary": 98000, "avgMidCareerSalary": 152000 },
+        { "id": "waterloo-ee", "name": "Electrical Engineering", "faculty": "Engineering", "annualTuition": 19800, "years": 4, "coopAvailable": true, "coopTerms": 6, "avgCoopSalary": 29000, "avgStartingSalary": 90000, "avgMidCareerSalary": 140000 },
+        { "id": "waterloo-mech", "name": "Mechanical Engineering", "faculty": "Engineering", "annualTuition": 19800, "years": 4, "coopAvailable": true, "coopTerms": 6, "avgCoopSalary": 27000, "avgStartingSalary": 85000, "avgMidCareerSalary": 132000 },
+        { "id": "waterloo-chem-eng", "name": "Chemical Engineering", "faculty": "Engineering", "annualTuition": 19800, "years": 4, "coopAvailable": true, "coopTerms": 6, "avgCoopSalary": 28000, "avgStartingSalary": 86000, "avgMidCareerSalary": 130000 },
+        { "id": "waterloo-mechatronics", "name": "Mechatronics Engineering", "faculty": "Engineering", "annualTuition": 19800, "years": 4, "coopAvailable": true, "coopTerms": 6, "avgCoopSalary": 30000, "avgStartingSalary": 88000, "avgMidCareerSalary": 135000 },
+        { "id": "waterloo-data-science", "name": "Data Science", "faculty": "Mathematics", "annualTuition": 17200, "years": 4, "coopAvailable": true, "coopTerms": 5, "avgCoopSalary": 31000, "avgStartingSalary": 92000, "avgMidCareerSalary": 142000 },
+        { "id": "waterloo-stats", "name": "Statistics", "faculty": "Mathematics", "annualTuition": 16500, "years": 4, "coopAvailable": true, "coopTerms": 5, "avgCoopSalary": 26000, "avgStartingSalary": 78000, "avgMidCareerSalary": 122000 },
+        { "id": "waterloo-math-finance", "name": "Mathematics / Finance", "faculty": "Mathematics", "annualTuition": 16500, "years": 4, "coopAvailable": true, "coopTerms": 5, "avgCoopSalary": 28000, "avgStartingSalary": 78000, "avgMidCareerSalary": 130000 },
+        { "id": "waterloo-afm", "name": "Accounting & Financial Management", "faculty": "Arts", "annualTuition": 16000, "years": 4, "coopAvailable": true, "coopTerms": 5, "avgCoopSalary": 24000, "avgStartingSalary": 65000, "avgMidCareerSalary": 105000 },
+        { "id": "waterloo-env-eng", "name": "Environmental Engineering", "faculty": "Engineering", "annualTuition": 19800, "years": 4, "coopAvailable": true, "coopTerms": 5, "avgCoopSalary": 25000, "avgStartingSalary": 80000, "avgMidCareerSalary": 120000 },
+        { "id": "waterloo-arch", "name": "Architecture", "faculty": "Engineering", "annualTuition": 19000, "years": 5, "coopAvailable": true, "coopTerms": 5, "avgCoopSalary": 20000, "avgStartingSalary": 62000, "avgMidCareerSalary": 98000 }
+      ]
+    },
+    {
+      "id": "uoft",
+      "name": "University of Toronto",
+      "province": "Ontario",
+      "programs": [
+        { "id": "uoft-cs", "name": "Computer Science", "faculty": "Arts & Science", "annualTuition": 16800, "years": 4, "coopAvailable": true, "coopTerms": 3, "avgCoopSalary": 28000, "avgStartingSalary": 90000, "avgMidCareerSalary": 140000 },
+        { "id": "uoft-engscience", "name": "Engineering Science", "faculty": "Applied Science & Engineering", "annualTuition": 19200, "years": 4, "coopAvailable": false, "coopTerms": 0, "avgCoopSalary": 0, "avgStartingSalary": 92000, "avgMidCareerSalary": 145000 },
+        { "id": "uoft-ee", "name": "Electrical & Computer Engineering", "faculty": "Applied Science & Engineering", "annualTuition": 19000, "years": 4, "coopAvailable": false, "coopTerms": 0, "avgCoopSalary": 0, "avgStartingSalary": 88000, "avgMidCareerSalary": 138000 },
+        { "id": "uoft-data-science", "name": "Data Science", "faculty": "Arts & Science", "annualTuition": 16500, "years": 4, "coopAvailable": true, "coopTerms": 3, "avgCoopSalary": 27000, "avgStartingSalary": 88000, "avgMidCareerSalary": 138000 },
+        { "id": "uoft-rotman", "name": "Commerce (Rotman BBA)", "faculty": "Rotman Commerce", "annualTuition": 15900, "years": 4, "coopAvailable": true, "coopTerms": 2, "avgCoopSalary": 22000, "avgStartingSalary": 72000, "avgMidCareerSalary": 120000 },
+        { "id": "uoft-economics", "name": "Economics", "faculty": "Arts & Science", "annualTuition": 14200, "years": 4, "coopAvailable": false, "coopTerms": 0, "avgCoopSalary": 0, "avgStartingSalary": 62000, "avgMidCareerSalary": 98000 },
+        { "id": "uoft-nursing", "name": "Nursing", "faculty": "Lawrence S. Bloomberg", "annualTuition": 13800, "years": 4, "coopAvailable": false, "coopTerms": 0, "avgCoopSalary": 0, "avgStartingSalary": 72000, "avgMidCareerSalary": 98000 },
+        { "id": "uoft-lifesci", "name": "Life Sciences", "faculty": "Arts & Science", "annualTuition": 14800, "years": 4, "coopAvailable": false, "coopTerms": 0, "avgCoopSalary": 0, "avgStartingSalary": 52000, "avgMidCareerSalary": 88000 },
+        { "id": "uoft-psychology", "name": "Psychology", "faculty": "Arts & Science", "annualTuition": 13500, "years": 4, "coopAvailable": false, "coopTerms": 0, "avgCoopSalary": 0, "avgStartingSalary": 48000, "avgMidCareerSalary": 72000 }
+      ]
+    },
+    {
+      "id": "mcgill",
+      "name": "McGill University",
+      "province": "Quebec",
+      "programs": [
+        { "id": "mcgill-cs", "name": "Computer Science", "faculty": "Science", "annualTuition": 9200, "years": 4, "coopAvailable": false, "coopTerms": 0, "avgCoopSalary": 0, "avgStartingSalary": 82000, "avgMidCareerSalary": 130000 },
+        { "id": "mcgill-software", "name": "Software Engineering", "faculty": "Engineering", "annualTuition": 10800, "years": 4, "coopAvailable": false, "coopTerms": 0, "avgCoopSalary": 0, "avgStartingSalary": 85000, "avgMidCareerSalary": 132000 },
+        { "id": "mcgill-engineering", "name": "Engineering", "faculty": "Engineering", "annualTuition": 10500, "years": 4, "coopAvailable": true, "coopTerms": 2, "avgCoopSalary": 24000, "avgStartingSalary": 80000, "avgMidCareerSalary": 128000 },
+        { "id": "mcgill-desautels", "name": "Commerce (Desautels)", "faculty": "Desautels Faculty of Management", "annualTuition": 9800, "years": 4, "coopAvailable": false, "coopTerms": 0, "avgCoopSalary": 0, "avgStartingSalary": 68000, "avgMidCareerSalary": 115000 },
+        { "id": "mcgill-economics", "name": "Economics", "faculty": "Arts", "annualTuition": 8800, "years": 4, "coopAvailable": false, "coopTerms": 0, "avgCoopSalary": 0, "avgStartingSalary": 60000, "avgMidCareerSalary": 95000 },
+        { "id": "mcgill-nursing", "name": "Nursing", "faculty": "Ingram School of Nursing", "annualTuition": 9000, "years": 4, "coopAvailable": false, "coopTerms": 0, "avgCoopSalary": 0, "avgStartingSalary": 68000, "avgMidCareerSalary": 92000 },
+        { "id": "mcgill-arts", "name": "Arts", "faculty": "Arts", "annualTuition": 8500, "years": 4, "coopAvailable": false, "coopTerms": 0, "avgCoopSalary": 0, "avgStartingSalary": 46000, "avgMidCareerSalary": 72000 },
+        { "id": "mcgill-science", "name": "Science", "faculty": "Science", "annualTuition": 8900, "years": 4, "coopAvailable": false, "coopTerms": 0, "avgCoopSalary": 0, "avgStartingSalary": 52000, "avgMidCareerSalary": 82000 }
+      ]
+    },
+    {
+      "id": "queens",
+      "name": "Queen's University",
+      "province": "Ontario",
+      "programs": [
+        { "id": "queens-cs", "name": "Computer Science", "faculty": "Arts & Science", "annualTuition": 15400, "years": 4, "coopAvailable": true, "coopTerms": 3, "avgCoopSalary": 24000, "avgStartingSalary": 82000, "avgMidCareerSalary": 128000 },
+        { "id": "queens-engineering", "name": "Engineering", "faculty": "Engineering & Applied Science", "annualTuition": 17600, "years": 4, "coopAvailable": false, "coopTerms": 0, "avgCoopSalary": 0, "avgStartingSalary": 80000, "avgMidCareerSalary": 125000 },
+        { "id": "queens-mining-eng", "name": "Mining Engineering", "faculty": "Engineering & Applied Science", "annualTuition": 17600, "years": 4, "coopAvailable": false, "coopTerms": 0, "avgCoopSalary": 0, "avgStartingSalary": 88000, "avgMidCareerSalary": 138000 },
+        { "id": "queens-smith", "name": "Commerce (Smith BCom)", "faculty": "Smith School of Business", "annualTuition": 17800, "years": 4, "coopAvailable": true, "coopTerms": 2, "avgCoopSalary": 22000, "avgStartingSalary": 75000, "avgMidCareerSalary": 130000 },
+        { "id": "queens-economics", "name": "Economics", "faculty": "Arts & Science", "annualTuition": 14000, "years": 4, "coopAvailable": false, "coopTerms": 0, "avgCoopSalary": 0, "avgStartingSalary": 60000, "avgMidCareerSalary": 96000 },
+        { "id": "queens-kinesiology", "name": "Kinesiology", "faculty": "Arts & Science", "annualTuition": 13500, "years": 4, "coopAvailable": false, "coopTerms": 0, "avgCoopSalary": 0, "avgStartingSalary": 50000, "avgMidCareerSalary": 75000 },
+        { "id": "queens-healthsci", "name": "Health Sciences", "faculty": "Health Sciences", "annualTuition": 14200, "years": 4, "coopAvailable": false, "coopTerms": 0, "avgCoopSalary": 0, "avgStartingSalary": 58000, "avgMidCareerSalary": 92000 }
+      ]
+    },
+    {
+      "id": "ubc",
+      "name": "University of British Columbia",
+      "province": "British Columbia",
+      "programs": [
+        { "id": "ubc-cs", "name": "Computer Science", "faculty": "Science", "annualTuition": 15200, "years": 4, "coopAvailable": true, "coopTerms": 4, "avgCoopSalary": 30000, "avgStartingSalary": 92000, "avgMidCareerSalary": 142000 },
+        { "id": "ubc-engineering", "name": "Engineering", "faculty": "Applied Science", "annualTuition": 17400, "years": 4, "coopAvailable": true, "coopTerms": 3, "avgCoopSalary": 26000, "avgStartingSalary": 84000, "avgMidCareerSalary": 132000 },
+        { "id": "ubc-ee", "name": "Electrical Engineering", "faculty": "Applied Science", "annualTuition": 17400, "years": 4, "coopAvailable": true, "coopTerms": 3, "avgCoopSalary": 27000, "avgStartingSalary": 88000, "avgMidCareerSalary": 136000 },
+        { "id": "ubc-data-science", "name": "Data Science", "faculty": "Science", "annualTuition": 15000, "years": 4, "coopAvailable": true, "coopTerms": 4, "avgCoopSalary": 29000, "avgStartingSalary": 90000, "avgMidCareerSalary": 140000 },
+        { "id": "ubc-sauder", "name": "Commerce (Sauder BCom)", "faculty": "Sauder School of Business", "annualTuition": 14800, "years": 4, "coopAvailable": true, "coopTerms": 2, "avgCoopSalary": 21000, "avgStartingSalary": 70000, "avgMidCareerSalary": 118000 },
+        { "id": "ubc-nursing", "name": "Nursing", "faculty": "Applied Science", "annualTuition": 13800, "years": 4, "coopAvailable": false, "coopTerms": 0, "avgCoopSalary": 0, "avgStartingSalary": 72000, "avgMidCareerSalary": 98000 },
+        { "id": "ubc-economics", "name": "Economics", "faculty": "Arts", "annualTuition": 13000, "years": 4, "coopAvailable": false, "coopTerms": 0, "avgCoopSalary": 0, "avgStartingSalary": 60000, "avgMidCareerSalary": 95000 },
+        { "id": "ubc-sciences", "name": "Sciences", "faculty": "Science", "annualTuition": 13200, "years": 4, "coopAvailable": false, "coopTerms": 0, "avgCoopSalary": 0, "avgStartingSalary": 52000, "avgMidCareerSalary": 82000 }
+      ]
+    },
+    {
+      "id": "western",
+      "name": "Western University",
+      "province": "Ontario",
+      "programs": [
+        { "id": "western-cs", "name": "Computer Science", "faculty": "Science", "annualTuition": 14800, "years": 4, "coopAvailable": true, "coopTerms": 3, "avgCoopSalary": 22000, "avgStartingSalary": 79000, "avgMidCareerSalary": 122000 },
+        { "id": "western-engineering", "name": "Engineering", "faculty": "Engineering", "annualTuition": 16900, "years": 4, "coopAvailable": false, "coopTerms": 0, "avgCoopSalary": 0, "avgStartingSalary": 78000, "avgMidCareerSalary": 122000 },
+        { "id": "western-ivey", "name": "Business (Ivey HBA)", "faculty": "Ivey Business School", "annualTuition": 18500, "years": 4, "coopAvailable": false, "coopTerms": 0, "avgCoopSalary": 0, "avgStartingSalary": 82000, "avgMidCareerSalary": 145000 },
+        { "id": "western-nursing", "name": "Nursing", "faculty": "Health Sciences", "annualTuition": 13800, "years": 4, "coopAvailable": false, "coopTerms": 0, "avgCoopSalary": 0, "avgStartingSalary": 70000, "avgMidCareerSalary": 95000 },
+        { "id": "western-economics", "name": "Economics", "faculty": "Social Science", "annualTuition": 13200, "years": 4, "coopAvailable": false, "coopTerms": 0, "avgCoopSalary": 0, "avgStartingSalary": 60000, "avgMidCareerSalary": 95000 },
+        { "id": "western-medsci", "name": "Medical Sciences", "faculty": "Medicine & Dentistry", "annualTuition": 14200, "years": 4, "coopAvailable": false, "coopTerms": 0, "avgCoopSalary": 0, "avgStartingSalary": 58000, "avgMidCareerSalary": 95000 }
+      ]
+    },
+    {
+      "id": "mcmaster",
+      "name": "McMaster University",
+      "province": "Ontario",
+      "programs": [
+        { "id": "mcmaster-cs", "name": "Computer Science", "faculty": "Engineering", "annualTuition": 14600, "years": 4, "coopAvailable": true, "coopTerms": 3, "avgCoopSalary": 22000, "avgStartingSalary": 80000, "avgMidCareerSalary": 125000 },
+        { "id": "mcmaster-engineering", "name": "Engineering", "faculty": "Engineering", "annualTuition": 16400, "years": 4, "coopAvailable": true, "coopTerms": 2, "avgCoopSalary": 24000, "avgStartingSalary": 79000, "avgMidCareerSalary": 122000 },
+        { "id": "mcmaster-ee", "name": "Electrical & Computer Engineering", "faculty": "Engineering", "annualTuition": 16400, "years": 4, "coopAvailable": true, "coopTerms": 2, "avgCoopSalary": 25000, "avgStartingSalary": 84000, "avgMidCareerSalary": 128000 },
+        { "id": "mcmaster-nursing", "name": "Nursing", "faculty": "Health Sciences", "annualTuition": 13200, "years": 4, "coopAvailable": false, "coopTerms": 0, "avgCoopSalary": 0, "avgStartingSalary": 70000, "avgMidCareerSalary": 96000 },
+        { "id": "mcmaster-degroote", "name": "Business (DeGroote BCom)", "faculty": "DeGroote School of Business", "annualTuition": 13800, "years": 4, "coopAvailable": true, "coopTerms": 2, "avgCoopSalary": 18000, "avgStartingSalary": 62000, "avgMidCareerSalary": 100000 },
+        { "id": "mcmaster-healthsci", "name": "Health Sciences", "faculty": "Health Sciences", "annualTuition": 13500, "years": 4, "coopAvailable": false, "coopTerms": 0, "avgCoopSalary": 0, "avgStartingSalary": 56000, "avgMidCareerSalary": 90000 },
+        { "id": "mcmaster-lifesci", "name": "Life Sciences", "faculty": "Science", "annualTuition": 13000, "years": 4, "coopAvailable": false, "coopTerms": 0, "avgCoopSalary": 0, "avgStartingSalary": 50000, "avgMidCareerSalary": 80000 }
+      ]
+    },
+    {
+      "id": "tmu",
+      "name": "Toronto Metropolitan University",
+      "province": "Ontario",
+      "programs": [
+        { "id": "tmu-cs", "name": "Computer Science", "faculty": "Science", "annualTuition": 13200, "years": 4, "coopAvailable": true, "coopTerms": 3, "avgCoopSalary": 20000, "avgStartingSalary": 72000, "avgMidCareerSalary": 112000 },
+        { "id": "tmu-data-science", "name": "Data Science", "faculty": "Science", "annualTuition": 13000, "years": 4, "coopAvailable": true, "coopTerms": 3, "avgCoopSalary": 20000, "avgStartingSalary": 74000, "avgMidCareerSalary": 115000 },
+        { "id": "tmu-engineering", "name": "Engineering", "faculty": "Engineering & Architectural Science", "annualTuition": 14800, "years": 4, "coopAvailable": true, "coopTerms": 3, "avgCoopSalary": 21000, "avgStartingSalary": 72000, "avgMidCareerSalary": 112000 },
+        { "id": "tmu-nursing", "name": "Nursing", "faculty": "Community Services", "annualTuition": 12200, "years": 4, "coopAvailable": false, "coopTerms": 0, "avgCoopSalary": 0, "avgStartingSalary": 70000, "avgMidCareerSalary": 95000 },
+        { "id": "tmu-business", "name": "Business Management", "faculty": "Ted Rogers School of Management", "annualTuition": 13000, "years": 4, "coopAvailable": true, "coopTerms": 2, "avgCoopSalary": 16000, "avgStartingSalary": 58000, "avgMidCareerSalary": 92000 },
+        { "id": "tmu-creative", "name": "Creative Industries", "faculty": "Communication & Design", "annualTuition": 11800, "years": 4, "coopAvailable": false, "coopTerms": 0, "avgCoopSalary": 0, "avgStartingSalary": 46000, "avgMidCareerSalary": 70000 }
+      ]
+    },
+    {
+      "id": "york",
+      "name": "York University",
+      "province": "Ontario",
+      "programs": [
+        { "id": "york-cs", "name": "Computer Science", "faculty": "Lassonde", "annualTuition": 12400, "years": 4, "coopAvailable": false, "coopTerms": 0, "avgCoopSalary": 0, "avgStartingSalary": 68000, "avgMidCareerSalary": 105000 },
+        { "id": "york-engineering", "name": "Engineering", "faculty": "Lassonde", "annualTuition": 13800, "years": 4, "coopAvailable": false, "coopTerms": 0, "avgCoopSalary": 0, "avgStartingSalary": 72000, "avgMidCareerSalary": 112000 },
+        { "id": "york-schulich", "name": "Business (Schulich BBA)", "faculty": "Schulich School of Business", "annualTuition": 16200, "years": 4, "coopAvailable": false, "coopTerms": 0, "avgCoopSalary": 0, "avgStartingSalary": 68000, "avgMidCareerSalary": 118000 },
+        { "id": "york-nursing", "name": "Nursing", "faculty": "Health", "annualTuition": 11800, "years": 4, "coopAvailable": false, "coopTerms": 0, "avgCoopSalary": 0, "avgStartingSalary": 68000, "avgMidCareerSalary": 94000 },
+        { "id": "york-economics", "name": "Economics", "faculty": "Liberal Arts & Professional Studies", "annualTuition": 10800, "years": 4, "coopAvailable": false, "coopTerms": 0, "avgCoopSalary": 0, "avgStartingSalary": 56000, "avgMidCareerSalary": 86000 },
+        { "id": "york-arts", "name": "Arts", "faculty": "Liberal Arts & Professional Studies", "annualTuition": 10800, "years": 4, "coopAvailable": false, "coopTerms": 0, "avgCoopSalary": 0, "avgStartingSalary": 44000, "avgMidCareerSalary": 68000 }
+      ]
+    },
+    {
+      "id": "carleton",
+      "name": "Carleton University",
+      "province": "Ontario",
+      "programs": [
+        { "id": "carleton-cs", "name": "Computer Science", "faculty": "Science", "annualTuition": 12200, "years": 4, "coopAvailable": true, "coopTerms": 3, "avgCoopSalary": 20000, "avgStartingSalary": 70000, "avgMidCareerSalary": 108000 },
+        { "id": "carleton-software", "name": "Software Engineering", "faculty": "Engineering & Design", "annualTuition": 14500, "years": 4, "coopAvailable": true, "coopTerms": 3, "avgCoopSalary": 22000, "avgStartingSalary": 76000, "avgMidCareerSalary": 118000 },
+        { "id": "carleton-engineering", "name": "Engineering", "faculty": "Engineering & Design", "annualTuition": 14200, "years": 4, "coopAvailable": true, "coopTerms": 3, "avgCoopSalary": 22000, "avgStartingSalary": 74000, "avgMidCareerSalary": 115000 },
+        { "id": "carleton-aerospace", "name": "Aerospace Engineering", "faculty": "Engineering & Design", "annualTuition": 14200, "years": 4, "coopAvailable": true, "coopTerms": 3, "avgCoopSalary": 24000, "avgStartingSalary": 82000, "avgMidCareerSalary": 128000 },
+        { "id": "carleton-journalism", "name": "Journalism", "faculty": "Public Affairs", "annualTuition": 11500, "years": 4, "coopAvailable": true, "coopTerms": 2, "avgCoopSalary": 14000, "avgStartingSalary": 46000, "avgMidCareerSalary": 70000 },
+        { "id": "carleton-sprott", "name": "Business (Sprott BCom)", "faculty": "Sprott School of Business", "annualTuition": 12000, "years": 4, "coopAvailable": true, "coopTerms": 2, "avgCoopSalary": 16000, "avgStartingSalary": 58000, "avgMidCareerSalary": 92000 },
+        { "id": "carleton-publicaffairs", "name": "Public Affairs & Policy", "faculty": "Public Affairs", "annualTuition": 11200, "years": 4, "coopAvailable": false, "coopTerms": 0, "avgCoopSalary": 0, "avgStartingSalary": 52000, "avgMidCareerSalary": 80000 }
+      ]
+    },
+    {
+      "id": "ottawa",
+      "name": "University of Ottawa",
+      "province": "Ontario",
+      "programs": [
+        { "id": "ottawa-cs", "name": "Computer Science", "faculty": "Science", "annualTuition": 15200, "years": 4, "coopAvailable": true, "coopTerms": 3, "avgCoopSalary": 22000, "avgStartingSalary": 78000, "avgMidCareerSalary": 120000 },
+        { "id": "ottawa-se", "name": "Software Engineering", "faculty": "Engineering", "annualTuition": 17200, "years": 4, "coopAvailable": true, "coopTerms": 4, "avgCoopSalary": 25000, "avgStartingSalary": 84000, "avgMidCareerSalary": 128000 },
+        { "id": "ottawa-engineering", "name": "Engineering", "faculty": "Engineering", "annualTuition": 17000, "years": 4, "coopAvailable": true, "coopTerms": 3, "avgCoopSalary": 24000, "avgStartingSalary": 80000, "avgMidCareerSalary": 124000 },
+        { "id": "ottawa-commerce", "name": "Commerce", "faculty": "Telfer School of Management", "annualTuition": 13500, "years": 4, "coopAvailable": true, "coopTerms": 2, "avgCoopSalary": 18000, "avgStartingSalary": 62000, "avgMidCareerSalary": 98000 },
+        { "id": "ottawa-nursing", "name": "Nursing", "faculty": "Health Sciences", "annualTuition": 12400, "years": 4, "coopAvailable": false, "coopTerms": 0, "avgCoopSalary": 0, "avgStartingSalary": 70000, "avgMidCareerSalary": 96000 },
+        { "id": "ottawa-healthsci", "name": "Health Sciences", "faculty": "Health Sciences", "annualTuition": 12200, "years": 4, "coopAvailable": false, "coopTerms": 0, "avgCoopSalary": 0, "avgStartingSalary": 54000, "avgMidCareerSalary": 86000 },
+        { "id": "ottawa-social-science", "name": "Social Sciences", "faculty": "Social Sciences", "annualTuition": 11500, "years": 4, "coopAvailable": false, "coopTerms": 0, "avgCoopSalary": 0, "avgStartingSalary": 48000, "avgMidCareerSalary": 72000 }
+      ]
+    },
+    {
+      "id": "guelph",
+      "name": "University of Guelph",
+      "province": "Ontario",
+      "programs": [
+        { "id": "guelph-cs", "name": "Computer Science", "faculty": "Computing & Information Science", "annualTuition": 13800, "years": 4, "coopAvailable": true, "coopTerms": 4, "avgCoopSalary": 21000, "avgStartingSalary": 76000, "avgMidCareerSalary": 118000 },
+        { "id": "guelph-engineering", "name": "Engineering", "faculty": "Engineering & Physical Sciences", "annualTuition": 15800, "years": 4, "coopAvailable": true, "coopTerms": 3, "avgCoopSalary": 23000, "avgStartingSalary": 78000, "avgMidCareerSalary": 120000 },
+        { "id": "guelph-business", "name": "Business Administration", "faculty": "Gordon S. Lang School of Business", "annualTuition": 12800, "years": 4, "coopAvailable": true, "coopTerms": 3, "avgCoopSalary": 18000, "avgStartingSalary": 60000, "avgMidCareerSalary": 95000 },
+        { "id": "guelph-biomed", "name": "Biomedical Sciences", "faculty": "Ontario Veterinary College", "annualTuition": 11800, "years": 4, "coopAvailable": true, "coopTerms": 2, "avgCoopSalary": 16000, "avgStartingSalary": 52000, "avgMidCareerSalary": 84000 },
+        { "id": "guelph-food-sci", "name": "Food Science", "faculty": "Ontario Agricultural College", "annualTuition": 11500, "years": 4, "coopAvailable": true, "coopTerms": 2, "avgCoopSalary": 17000, "avgStartingSalary": 54000, "avgMidCareerSalary": 80000 },
+        { "id": "guelph-env-sci", "name": "Environmental Sciences", "faculty": "Ontario Agricultural College", "annualTuition": 11200, "years": 4, "coopAvailable": true, "coopTerms": 2, "avgCoopSalary": 16000, "avgStartingSalary": 54000, "avgMidCareerSalary": 80000 }
+      ]
+    },
+    {
+      "id": "laurier",
+      "name": "Wilfrid Laurier University",
+      "province": "Ontario",
+      "programs": [
+        { "id": "laurier-bba", "name": "Business Administration (BBA)", "faculty": "Lazaridis School of Business", "annualTuition": 16500, "years": 4, "coopAvailable": true, "coopTerms": 3, "avgCoopSalary": 20000, "avgStartingSalary": 65000, "avgMidCareerSalary": 105000 },
+        { "id": "laurier-cs", "name": "Computer Science", "faculty": "Science", "annualTuition": 14800, "years": 4, "coopAvailable": true, "coopTerms": 3, "avgCoopSalary": 22000, "avgStartingSalary": 76000, "avgMidCareerSalary": 118000 },
+        { "id": "laurier-fin-math", "name": "Financial Mathematics", "faculty": "Science", "annualTuition": 14500, "years": 4, "coopAvailable": true, "coopTerms": 3, "avgCoopSalary": 21000, "avgStartingSalary": 68000, "avgMidCareerSalary": 110000 },
+        { "id": "laurier-economics", "name": "Economics", "faculty": "Arts", "annualTuition": 13200, "years": 4, "coopAvailable": true, "coopTerms": 2, "avgCoopSalary": 18000, "avgStartingSalary": 58000, "avgMidCareerSalary": 90000 },
+        { "id": "laurier-music", "name": "Music", "faculty": "Music", "annualTuition": 13500, "years": 4, "coopAvailable": false, "coopTerms": 0, "avgCoopSalary": 0, "avgStartingSalary": 40000, "avgMidCareerSalary": 58000 },
+        { "id": "laurier-psychology", "name": "Psychology", "faculty": "Science", "annualTuition": 12500, "years": 4, "coopAvailable": false, "coopTerms": 0, "avgCoopSalary": 0, "avgStartingSalary": 48000, "avgMidCareerSalary": 72000 }
+      ]
+    },
+    {
+      "id": "ontariotech",
+      "name": "Ontario Tech University",
+      "province": "Ontario",
+      "programs": [
+        { "id": "ontariotech-cs", "name": "Computer Science", "faculty": "Science", "annualTuition": 13200, "years": 4, "coopAvailable": true, "coopTerms": 3, "avgCoopSalary": 19000, "avgStartingSalary": 72000, "avgMidCareerSalary": 112000 },
+        { "id": "ontariotech-se", "name": "Software Engineering", "faculty": "Engineering & Applied Science", "annualTuition": 14800, "years": 4, "coopAvailable": true, "coopTerms": 3, "avgCoopSalary": 21000, "avgStartingSalary": 76000, "avgMidCareerSalary": 116000 },
+        { "id": "ontariotech-ee", "name": "Electrical Engineering", "faculty": "Engineering & Applied Science", "annualTuition": 14500, "years": 4, "coopAvailable": true, "coopTerms": 3, "avgCoopSalary": 21000, "avgStartingSalary": 74000, "avgMidCareerSalary": 114000 },
+        { "id": "ontariotech-business", "name": "Business & IT", "faculty": "Business & IT", "annualTuition": 12400, "years": 4, "coopAvailable": true, "coopTerms": 2, "avgCoopSalary": 16000, "avgStartingSalary": 58000, "avgMidCareerSalary": 90000 },
+        { "id": "ontariotech-healthsci", "name": "Health Sciences", "faculty": "Health Sciences", "annualTuition": 12000, "years": 4, "coopAvailable": false, "coopTerms": 0, "avgCoopSalary": 0, "avgStartingSalary": 52000, "avgMidCareerSalary": 82000 },
+        { "id": "ontariotech-nuclear", "name": "Nuclear Engineering", "faculty": "Engineering & Applied Science", "annualTuition": 14800, "years": 4, "coopAvailable": true, "coopTerms": 3, "avgCoopSalary": 24000, "avgStartingSalary": 86000, "avgMidCareerSalary": 132000 }
+      ]
+    },
+    {
+      "id": "brock",
+      "name": "Brock University",
+      "province": "Ontario",
+      "programs": [
+        { "id": "brock-cs", "name": "Computer Science", "faculty": "Mathematics & Science", "annualTuition": 12500, "years": 4, "coopAvailable": true, "coopTerms": 3, "avgCoopSalary": 18000, "avgStartingSalary": 68000, "avgMidCareerSalary": 105000 },
+        { "id": "brock-business", "name": "Business Administration", "faculty": "Goodman School of Business", "annualTuition": 12200, "years": 4, "coopAvailable": true, "coopTerms": 2, "avgCoopSalary": 16000, "avgStartingSalary": 58000, "avgMidCareerSalary": 90000 },
+        { "id": "brock-kinesiology", "name": "Kinesiology", "faculty": "Applied Health Sciences", "annualTuition": 11500, "years": 4, "coopAvailable": false, "coopTerms": 0, "avgCoopSalary": 0, "avgStartingSalary": 48000, "avgMidCareerSalary": 72000 },
+        { "id": "brock-nursing", "name": "Nursing", "faculty": "Applied Health Sciences", "annualTuition": 11800, "years": 4, "coopAvailable": false, "coopTerms": 0, "avgCoopSalary": 0, "avgStartingSalary": 68000, "avgMidCareerSalary": 92000 },
+        { "id": "brock-sciences", "name": "Sciences", "faculty": "Mathematics & Science", "annualTuition": 11200, "years": 4, "coopAvailable": true, "coopTerms": 2, "avgCoopSalary": 15000, "avgStartingSalary": 50000, "avgMidCareerSalary": 78000 }
+      ]
+    },
+    {
+      "id": "windsor",
+      "name": "University of Windsor",
+      "province": "Ontario",
+      "programs": [
+        { "id": "windsor-cs", "name": "Computer Science", "faculty": "Science", "annualTuition": 12800, "years": 4, "coopAvailable": true, "coopTerms": 3, "avgCoopSalary": 19000, "avgStartingSalary": 70000, "avgMidCareerSalary": 108000 },
+        { "id": "windsor-engineering", "name": "Engineering", "faculty": "Engineering", "annualTuition": 14500, "years": 4, "coopAvailable": true, "coopTerms": 3, "avgCoopSalary": 21000, "avgStartingSalary": 74000, "avgMidCareerSalary": 114000 },
+        { "id": "windsor-business", "name": "Business Administration (Odette)", "faculty": "Odette School of Business", "annualTuition": 12200, "years": 4, "coopAvailable": true, "coopTerms": 2, "avgCoopSalary": 16000, "avgStartingSalary": 60000, "avgMidCareerSalary": 92000 },
+        { "id": "windsor-nursing", "name": "Nursing", "faculty": "Nursing", "annualTuition": 11800, "years": 4, "coopAvailable": false, "coopTerms": 0, "avgCoopSalary": 0, "avgStartingSalary": 68000, "avgMidCareerSalary": 94000 },
+        { "id": "windsor-social-work", "name": "Social Work", "faculty": "Social Work", "annualTuition": 11500, "years": 4, "coopAvailable": false, "coopTerms": 0, "avgCoopSalary": 0, "avgStartingSalary": 50000, "avgMidCareerSalary": 72000 }
+      ]
+    },
+    {
+      "id": "sfu",
+      "name": "Simon Fraser University",
+      "province": "British Columbia",
+      "programs": [
+        { "id": "sfu-cs", "name": "Computer Science", "faculty": "Computing Science", "annualTuition": 16200, "years": 4, "coopAvailable": true, "coopTerms": 4, "avgCoopSalary": 27000, "avgStartingSalary": 86000, "avgMidCareerSalary": 135000 },
+        { "id": "sfu-software", "name": "Software Systems", "faculty": "Computing Science", "annualTuition": 16200, "years": 4, "coopAvailable": true, "coopTerms": 4, "avgCoopSalary": 27000, "avgStartingSalary": 85000, "avgMidCareerSalary": 132000 },
+        { "id": "sfu-engineering", "name": "Engineering Science", "faculty": "Applied Science", "annualTuition": 17800, "years": 4, "coopAvailable": true, "coopTerms": 4, "avgCoopSalary": 24000, "avgStartingSalary": 82000, "avgMidCareerSalary": 130000 },
+        { "id": "sfu-beedie", "name": "Business (Beedie BBA)", "faculty": "Beedie School of Business", "annualTuition": 16500, "years": 4, "coopAvailable": true, "coopTerms": 3, "avgCoopSalary": 20000, "avgStartingSalary": 65000, "avgMidCareerSalary": 105000 },
+        { "id": "sfu-data-science", "name": "Data Science", "faculty": "Computing Science", "annualTuition": 15800, "years": 4, "coopAvailable": true, "coopTerms": 4, "avgCoopSalary": 26000, "avgStartingSalary": 84000, "avgMidCareerSalary": 132000 },
+        { "id": "sfu-sciences", "name": "Sciences", "faculty": "Science", "annualTuition": 14200, "years": 4, "coopAvailable": true, "coopTerms": 2, "avgCoopSalary": 18000, "avgStartingSalary": 52000, "avgMidCareerSalary": 82000 },
+        { "id": "sfu-arts", "name": "Arts", "faculty": "Arts & Social Sciences", "annualTuition": 12800, "years": 4, "coopAvailable": false, "coopTerms": 0, "avgCoopSalary": 0, "avgStartingSalary": 44000, "avgMidCareerSalary": 68000 }
+      ]
+    },
+    {
+      "id": "uvic",
+      "name": "University of Victoria",
+      "province": "British Columbia",
+      "programs": [
+        { "id": "uvic-cs", "name": "Computer Science", "faculty": "Engineering & Computer Science", "annualTuition": 10200, "years": 4, "coopAvailable": true, "coopTerms": 4, "avgCoopSalary": 22000, "avgStartingSalary": 80000, "avgMidCareerSalary": 125000 },
+        { "id": "uvic-computer-eng", "name": "Computer Engineering", "faculty": "Engineering & Computer Science", "annualTuition": 11500, "years": 4, "coopAvailable": true, "coopTerms": 4, "avgCoopSalary": 23000, "avgStartingSalary": 82000, "avgMidCareerSalary": 128000 },
+        { "id": "uvic-engineering", "name": "Electrical Engineering", "faculty": "Engineering & Computer Science", "annualTuition": 11500, "years": 4, "coopAvailable": true, "coopTerms": 3, "avgCoopSalary": 22000, "avgStartingSalary": 80000, "avgMidCareerSalary": 125000 },
+        { "id": "uvic-business", "name": "Commerce (Gustavson BComm)", "faculty": "Gustavson School of Business", "annualTuition": 10200, "years": 4, "coopAvailable": true, "coopTerms": 3, "avgCoopSalary": 18000, "avgStartingSalary": 62000, "avgMidCareerSalary": 100000 },
+        { "id": "uvic-nursing", "name": "Nursing", "faculty": "Human & Social Development", "annualTuition": 9200, "years": 4, "coopAvailable": false, "coopTerms": 0, "avgCoopSalary": 0, "avgStartingSalary": 70000, "avgMidCareerSalary": 96000 },
+        { "id": "uvic-sciences", "name": "Sciences", "faculty": "Science", "annualTuition": 8800, "years": 4, "coopAvailable": true, "coopTerms": 2, "avgCoopSalary": 16000, "avgStartingSalary": 50000, "avgMidCareerSalary": 80000 },
+        { "id": "uvic-social-sci", "name": "Social Sciences", "faculty": "Social Sciences", "annualTuition": 8600, "years": 4, "coopAvailable": false, "coopTerms": 0, "avgCoopSalary": 0, "avgStartingSalary": 46000, "avgMidCareerSalary": 70000 }
+      ]
+    },
+    {
+      "id": "ualberta",
+      "name": "University of Alberta",
+      "province": "Alberta",
+      "programs": [
+        { "id": "ualberta-cs", "name": "Computer Science", "faculty": "Science", "annualTuition": 11800, "years": 4, "coopAvailable": true, "coopTerms": 3, "avgCoopSalary": 22000, "avgStartingSalary": 82000, "avgMidCareerSalary": 128000 },
+        { "id": "ualberta-software", "name": "Software Engineering", "faculty": "Engineering", "annualTuition": 13500, "years": 4, "coopAvailable": true, "coopTerms": 3, "avgCoopSalary": 23000, "avgStartingSalary": 86000, "avgMidCareerSalary": 132000 },
+        { "id": "ualberta-engineering", "name": "Engineering", "faculty": "Engineering", "annualTuition": 13500, "years": 4, "coopAvailable": true, "coopTerms": 3, "avgCoopSalary": 24000, "avgStartingSalary": 84000, "avgMidCareerSalary": 130000 },
+        { "id": "ualberta-petroleum-eng", "name": "Petroleum Engineering", "faculty": "Engineering", "annualTuition": 13500, "years": 4, "coopAvailable": true, "coopTerms": 3, "avgCoopSalary": 28000, "avgStartingSalary": 96000, "avgMidCareerSalary": 148000 },
+        { "id": "ualberta-business", "name": "Business (BCom)", "faculty": "Alberta School of Business", "annualTuition": 12200, "years": 4, "coopAvailable": true, "coopTerms": 2, "avgCoopSalary": 19000, "avgStartingSalary": 64000, "avgMidCareerSalary": 102000 },
+        { "id": "ualberta-nursing", "name": "Nursing", "faculty": "Nursing", "annualTuition": 11200, "years": 4, "coopAvailable": false, "coopTerms": 0, "avgCoopSalary": 0, "avgStartingSalary": 72000, "avgMidCareerSalary": 98000 },
+        { "id": "ualberta-sciences", "name": "Sciences", "faculty": "Science", "annualTuition": 10800, "years": 4, "coopAvailable": false, "coopTerms": 0, "avgCoopSalary": 0, "avgStartingSalary": 52000, "avgMidCareerSalary": 82000 }
+      ]
+    },
+    {
+      "id": "ucalgary",
+      "name": "University of Calgary",
+      "province": "Alberta",
+      "programs": [
+        { "id": "ucalgary-cs", "name": "Computer Science", "faculty": "Science", "annualTuition": 12200, "years": 4, "coopAvailable": true, "coopTerms": 3, "avgCoopSalary": 21000, "avgStartingSalary": 80000, "avgMidCareerSalary": 125000 },
+        { "id": "ucalgary-software", "name": "Software Engineering", "faculty": "Science", "annualTuition": 13800, "years": 4, "coopAvailable": true, "coopTerms": 3, "avgCoopSalary": 23000, "avgStartingSalary": 84000, "avgMidCareerSalary": 130000 },
+        { "id": "ucalgary-engineering", "name": "Engineering", "faculty": "Schulich School of Engineering", "annualTuition": 14200, "years": 4, "coopAvailable": true, "coopTerms": 3, "avgCoopSalary": 24000, "avgStartingSalary": 84000, "avgMidCareerSalary": 130000 },
+        { "id": "ucalgary-haskayne", "name": "Business (Haskayne BCom)", "faculty": "Haskayne School of Business", "annualTuition": 12800, "years": 4, "coopAvailable": true, "coopTerms": 2, "avgCoopSalary": 19000, "avgStartingSalary": 64000, "avgMidCareerSalary": 104000 },
+        { "id": "ucalgary-nursing", "name": "Nursing", "faculty": "Nursing", "annualTuition": 11500, "years": 4, "coopAvailable": false, "coopTerms": 0, "avgCoopSalary": 0, "avgStartingSalary": 72000, "avgMidCareerSalary": 98000 },
+        { "id": "ucalgary-sciences", "name": "Sciences", "faculty": "Science", "annualTuition": 11200, "years": 4, "coopAvailable": false, "coopTerms": 0, "avgCoopSalary": 0, "avgStartingSalary": 52000, "avgMidCareerSalary": 82000 },
+        { "id": "ucalgary-kinesiology", "name": "Kinesiology", "faculty": "Kinesiology", "annualTuition": 10800, "years": 4, "coopAvailable": false, "coopTerms": 0, "avgCoopSalary": 0, "avgStartingSalary": 50000, "avgMidCareerSalary": 74000 }
+      ]
+    },
+    {
+      "id": "umanitoba",
+      "name": "University of Manitoba",
+      "province": "Manitoba",
+      "programs": [
+        { "id": "umanitoba-cs", "name": "Computer Science", "faculty": "Science", "annualTuition": 9800, "years": 4, "coopAvailable": true, "coopTerms": 3, "avgCoopSalary": 19000, "avgStartingSalary": 72000, "avgMidCareerSalary": 110000 },
+        { "id": "umanitoba-engineering", "name": "Engineering", "faculty": "Engineering", "annualTuition": 11200, "years": 4, "coopAvailable": true, "coopTerms": 3, "avgCoopSalary": 21000, "avgStartingSalary": 76000, "avgMidCareerSalary": 118000 },
+        { "id": "umanitoba-asper", "name": "Business (Asper BComm)", "faculty": "Asper School of Business", "annualTuition": 10200, "years": 4, "coopAvailable": true, "coopTerms": 2, "avgCoopSalary": 16000, "avgStartingSalary": 58000, "avgMidCareerSalary": 92000 },
+        { "id": "umanitoba-nursing", "name": "Nursing", "faculty": "Nursing", "annualTuition": 9500, "years": 4, "coopAvailable": false, "coopTerms": 0, "avgCoopSalary": 0, "avgStartingSalary": 68000, "avgMidCareerSalary": 94000 },
+        { "id": "umanitoba-sciences", "name": "Sciences", "faculty": "Science", "annualTuition": 9200, "years": 4, "coopAvailable": false, "coopTerms": 0, "avgCoopSalary": 0, "avgStartingSalary": 50000, "avgMidCareerSalary": 78000 },
+        { "id": "umanitoba-agriculture", "name": "Agriculture", "faculty": "Agricultural & Food Sciences", "annualTuition": 9000, "years": 4, "coopAvailable": false, "coopTerms": 0, "avgCoopSalary": 0, "avgStartingSalary": 52000, "avgMidCareerSalary": 78000 }
+      ]
+    },
+    {
+      "id": "usask",
+      "name": "University of Saskatchewan",
+      "province": "Saskatchewan",
+      "programs": [
+        { "id": "usask-cs", "name": "Computer Science", "faculty": "Science", "annualTuition": 9200, "years": 4, "coopAvailable": true, "coopTerms": 3, "avgCoopSalary": 18000, "avgStartingSalary": 70000, "avgMidCareerSalary": 108000 },
+        { "id": "usask-engineering", "name": "Engineering", "faculty": "Engineering", "annualTuition": 10800, "years": 4, "coopAvailable": true, "coopTerms": 3, "avgCoopSalary": 20000, "avgStartingSalary": 74000, "avgMidCareerSalary": 115000 },
+        { "id": "usask-commerce", "name": "Commerce", "faculty": "Edwards School of Business", "annualTuition": 9500, "years": 4, "coopAvailable": true, "coopTerms": 2, "avgCoopSalary": 15000, "avgStartingSalary": 56000, "avgMidCareerSalary": 88000 },
+        { "id": "usask-nursing", "name": "Nursing", "faculty": "Nursing", "annualTuition": 9000, "years": 4, "coopAvailable": false, "coopTerms": 0, "avgCoopSalary": 0, "avgStartingSalary": 68000, "avgMidCareerSalary": 92000 },
+        { "id": "usask-agriculture", "name": "Agriculture", "faculty": "Agriculture & Bioresources", "annualTuition": 8800, "years": 4, "coopAvailable": false, "coopTerms": 0, "avgCoopSalary": 0, "avgStartingSalary": 52000, "avgMidCareerSalary": 78000 },
+        { "id": "usask-sciences", "name": "Sciences", "faculty": "Science", "annualTuition": 8600, "years": 4, "coopAvailable": false, "coopTerms": 0, "avgCoopSalary": 0, "avgStartingSalary": 48000, "avgMidCareerSalary": 76000 }
+      ]
+    },
+    {
+      "id": "dal",
+      "name": "Dalhousie University",
+      "province": "Nova Scotia",
+      "programs": [
+        { "id": "dal-cs", "name": "Computer Science", "faculty": "Computer Science", "annualTuition": 12800, "years": 4, "coopAvailable": true, "coopTerms": 3, "avgCoopSalary": 20000, "avgStartingSalary": 76000, "avgMidCareerSalary": 118000 },
+        { "id": "dal-engineering", "name": "Engineering", "faculty": "Engineering", "annualTuition": 14500, "years": 4, "coopAvailable": true, "coopTerms": 3, "avgCoopSalary": 22000, "avgStartingSalary": 78000, "avgMidCareerSalary": 120000 },
+        { "id": "dal-commerce", "name": "Commerce", "faculty": "Rowe School of Business", "annualTuition": 12200, "years": 4, "coopAvailable": true, "coopTerms": 2, "avgCoopSalary": 16000, "avgStartingSalary": 60000, "avgMidCareerSalary": 96000 },
+        { "id": "dal-nursing", "name": "Nursing", "faculty": "Health", "annualTuition": 11800, "years": 4, "coopAvailable": false, "coopTerms": 0, "avgCoopSalary": 0, "avgStartingSalary": 66000, "avgMidCareerSalary": 90000 },
+        { "id": "dal-health", "name": "Health Sciences", "faculty": "Health", "annualTuition": 11500, "years": 4, "coopAvailable": false, "coopTerms": 0, "avgCoopSalary": 0, "avgStartingSalary": 52000, "avgMidCareerSalary": 82000 },
+        { "id": "dal-sciences", "name": "Sciences", "faculty": "Science", "annualTuition": 11200, "years": 4, "coopAvailable": false, "coopTerms": 0, "avgCoopSalary": 0, "avgStartingSalary": 50000, "avgMidCareerSalary": 80000 }
+      ]
+    },
+    {
+      "id": "unb",
+      "name": "University of New Brunswick",
+      "province": "New Brunswick",
+      "programs": [
+        { "id": "unb-cs", "name": "Computer Science", "faculty": "Computer Science", "annualTuition": 10800, "years": 4, "coopAvailable": true, "coopTerms": 3, "avgCoopSalary": 19000, "avgStartingSalary": 70000, "avgMidCareerSalary": 108000 },
+        { "id": "unb-software", "name": "Software Engineering", "faculty": "Engineering", "annualTuition": 12200, "years": 4, "coopAvailable": true, "coopTerms": 4, "avgCoopSalary": 21000, "avgStartingSalary": 74000, "avgMidCareerSalary": 114000 },
+        { "id": "unb-engineering", "name": "Engineering", "faculty": "Engineering", "annualTuition": 12200, "years": 4, "coopAvailable": true, "coopTerms": 3, "avgCoopSalary": 20000, "avgStartingSalary": 72000, "avgMidCareerSalary": 112000 },
+        { "id": "unb-business", "name": "Business Administration", "faculty": "Business", "annualTuition": 10200, "years": 4, "coopAvailable": true, "coopTerms": 2, "avgCoopSalary": 15000, "avgStartingSalary": 56000, "avgMidCareerSalary": 88000 },
+        { "id": "unb-nursing", "name": "Nursing", "faculty": "Nursing", "annualTuition": 9800, "years": 4, "coopAvailable": false, "coopTerms": 0, "avgCoopSalary": 0, "avgStartingSalary": 64000, "avgMidCareerSalary": 90000 },
+        { "id": "unb-sciences", "name": "Sciences", "faculty": "Science", "annualTuition": 9500, "years": 4, "coopAvailable": false, "coopTerms": 0, "avgCoopSalary": 0, "avgStartingSalary": 48000, "avgMidCareerSalary": 76000 }
+      ]
+    },
+    {
+      "id": "mun",
+      "name": "Memorial University of Newfoundland",
+      "province": "Newfoundland and Labrador",
+      "programs": [
+        { "id": "mun-cs", "name": "Computer Science", "faculty": "Science", "annualTuition": 6800, "years": 4, "coopAvailable": true, "coopTerms": 3, "avgCoopSalary": 18000, "avgStartingSalary": 68000, "avgMidCareerSalary": 105000 },
+        { "id": "mun-engineering", "name": "Engineering", "faculty": "Engineering & Applied Science", "annualTuition": 8200, "years": 4, "coopAvailable": true, "coopTerms": 3, "avgCoopSalary": 20000, "avgStartingSalary": 72000, "avgMidCareerSalary": 112000 },
+        { "id": "mun-ocean-engineering", "name": "Ocean & Naval Architectural Engineering", "faculty": "Engineering & Applied Science", "annualTuition": 8200, "years": 4, "coopAvailable": true, "coopTerms": 3, "avgCoopSalary": 22000, "avgStartingSalary": 80000, "avgMidCareerSalary": 125000 },
+        { "id": "mun-business", "name": "Business Administration", "faculty": "Business", "annualTuition": 7200, "years": 4, "coopAvailable": true, "coopTerms": 2, "avgCoopSalary": 14000, "avgStartingSalary": 54000, "avgMidCareerSalary": 84000 },
+        { "id": "mun-nursing", "name": "Nursing", "faculty": "Nursing", "annualTuition": 6500, "years": 4, "coopAvailable": false, "coopTerms": 0, "avgCoopSalary": 0, "avgStartingSalary": 64000, "avgMidCareerSalary": 88000 },
+        { "id": "mun-sciences", "name": "Sciences", "faculty": "Science", "annualTuition": 6200, "years": 4, "coopAvailable": false, "coopTerms": 0, "avgCoopSalary": 0, "avgStartingSalary": 46000, "avgMidCareerSalary": 74000 }
+      ]
+    },
+    {
+      "id": "concordia",
+      "name": "Concordia University",
+      "province": "Quebec",
+      "programs": [
+        { "id": "concordia-cs", "name": "Computer Science", "faculty": "Engineering & Computer Science", "annualTuition": 8800, "years": 4, "coopAvailable": true, "coopTerms": 3, "avgCoopSalary": 20000, "avgStartingSalary": 76000, "avgMidCareerSalary": 118000 },
+        { "id": "concordia-software", "name": "Software Engineering", "faculty": "Engineering & Computer Science", "annualTuition": 10200, "years": 4, "coopAvailable": true, "coopTerms": 3, "avgCoopSalary": 21000, "avgStartingSalary": 78000, "avgMidCareerSalary": 120000 },
+        { "id": "concordia-engineering", "name": "Engineering", "faculty": "Engineering & Computer Science", "annualTuition": 10200, "years": 4, "coopAvailable": true, "coopTerms": 3, "avgCoopSalary": 20000, "avgStartingSalary": 76000, "avgMidCareerSalary": 118000 },
+        { "id": "concordia-jmsb", "name": "Business (JMSB BComm)", "faculty": "John Molson School of Business", "annualTuition": 9800, "years": 4, "coopAvailable": true, "coopTerms": 2, "avgCoopSalary": 17000, "avgStartingSalary": 62000, "avgMidCareerSalary": 100000 },
+        { "id": "concordia-fine-arts", "name": "Fine Arts", "faculty": "Fine Arts", "annualTuition": 8200, "years": 4, "coopAvailable": false, "coopTerms": 0, "avgCoopSalary": 0, "avgStartingSalary": 40000, "avgMidCareerSalary": 58000 },
+        { "id": "concordia-communications", "name": "Communications", "faculty": "Arts & Science", "annualTuition": 8000, "years": 4, "coopAvailable": false, "coopTerms": 0, "avgCoopSalary": 0, "avgStartingSalary": 46000, "avgMidCareerSalary": 68000 }
+      ]
+    },
+    {
+      "id": "laval",
+      "name": "Université Laval",
+      "province": "Quebec",
+      "programs": [
+        { "id": "laval-cs", "name": "Computer Science (Informatique)", "faculty": "Science & Engineering", "annualTuition": 9500, "years": 4, "coopAvailable": true, "coopTerms": 3, "avgCoopSalary": 19000, "avgStartingSalary": 74000, "avgMidCareerSalary": 115000 },
+        { "id": "laval-engineering", "name": "Engineering", "faculty": "Science & Engineering", "annualTuition": 11200, "years": 4, "coopAvailable": true, "coopTerms": 3, "avgCoopSalary": 21000, "avgStartingSalary": 78000, "avgMidCareerSalary": 122000 },
+        { "id": "laval-business", "name": "Business Administration (FSA)", "faculty": "Business Administration", "annualTuition": 9800, "years": 4, "coopAvailable": true, "coopTerms": 2, "avgCoopSalary": 16000, "avgStartingSalary": 60000, "avgMidCareerSalary": 96000 },
+        { "id": "laval-nursing", "name": "Nursing (Sciences Infirmières)", "faculty": "Nursing", "annualTuition": 9200, "years": 4, "coopAvailable": false, "coopTerms": 0, "avgCoopSalary": 0, "avgStartingSalary": 66000, "avgMidCareerSalary": 90000 },
+        { "id": "laval-sciences", "name": "Sciences", "faculty": "Science & Engineering", "annualTuition": 8800, "years": 4, "coopAvailable": false, "coopTerms": 0, "avgCoopSalary": 0, "avgStartingSalary": 50000, "avgMidCareerSalary": 78000 }
+      ]
+    }
+  ],
+  "costOfLiving": {
+    "Toronto": { "monthlyRent": 2200, "monthlyExpenses": 1800, "annualTotal": 48000 },
+    "Vancouver": { "monthlyRent": 2400, "monthlyExpenses": 1900, "annualTotal": 52000 },
+    "Montreal": { "monthlyRent": 1500, "monthlyExpenses": 1500, "annualTotal": 36000 },
+    "Calgary": { "monthlyRent": 1800, "monthlyExpenses": 1600, "annualTotal": 43200 },
+    "Edmonton": { "monthlyRent": 1600, "monthlyExpenses": 1500, "annualTotal": 37200 },
+    "Waterloo/KW": { "monthlyRent": 1600, "monthlyExpenses": 1400, "annualTotal": 36000 },
+    "Ottawa": { "monthlyRent": 1800, "monthlyExpenses": 1500, "annualTotal": 39600 },
+    "Victoria": { "monthlyRent": 2000, "monthlyExpenses": 1700, "annualTotal": 44400 },
+    "Winnipeg": { "monthlyRent": 1400, "monthlyExpenses": 1400, "annualTotal": 33600 },
+    "Saskatoon": { "monthlyRent": 1300, "monthlyExpenses": 1300, "annualTotal": 31200 },
+    "Halifax": { "monthlyRent": 1700, "monthlyExpenses": 1400, "annualTotal": 37200 },
+    "London": { "monthlyRent": 1600, "monthlyExpenses": 1400, "annualTotal": 36000 },
+    "Hamilton": { "monthlyRent": 1700, "monthlyExpenses": 1400, "annualTotal": 37200 },
+    "Kingston": { "monthlyRent": 1600, "monthlyExpenses": 1350, "annualTotal": 35400 },
+    "Quebec City": { "monthlyRent": 1400, "monthlyExpenses": 1400, "annualTotal": 33600 },
+    "St. John's": { "monthlyRent": 1300, "monthlyExpenses": 1300, "annualTotal": 31200 },
+    "Fredericton": { "monthlyRent": 1200, "monthlyExpenses": 1200, "annualTotal": 28800 },
+    "Guelph": { "monthlyRent": 1600, "monthlyExpenses": 1400, "annualTotal": 36000 },
+    "Windsor": { "monthlyRent": 1300, "monthlyExpenses": 1300, "annualTotal": 31200 },
+    "Oshawa": { "monthlyRent": 1500, "monthlyExpenses": 1400, "annualTotal": 34800 }
+  }
+}

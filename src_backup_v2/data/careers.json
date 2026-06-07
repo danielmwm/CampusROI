@@ -1,0 +1,137 @@
+{
+  "programCategories": {
+    "waterloo-cs": "cs",
+    "waterloo-se": "software-eng",
+    "waterloo-math-finance": "finance-math",
+    "waterloo-afm": "business",
+    "waterloo-mechatronics": "engineering",
+    "uoft-cs": "cs",
+    "uoft-engscience": "engineering",
+    "uoft-rotman": "business",
+    "uoft-lifesci": "life-sciences",
+    "mcgill-cs": "cs",
+    "mcgill-engineering": "engineering",
+    "mcgill-desautels": "business",
+    "mcgill-arts": "arts",
+    "queens-cs": "cs",
+    "queens-engineering": "engineering",
+    "queens-smith": "business",
+    "queens-healthsci": "health",
+    "ubc-cs": "cs",
+    "ubc-engineering": "engineering",
+    "ubc-sauder": "business",
+    "ubc-sciences": "life-sciences",
+    "western-cs": "cs",
+    "western-engineering": "engineering",
+    "western-ivey": "business",
+    "western-medsci": "life-sciences",
+    "mcmaster-cs": "cs",
+    "mcmaster-engineering": "engineering",
+    "mcmaster-degroote": "business",
+    "mcmaster-healthsci": "health",
+    "tmu-cs": "cs",
+    "tmu-engineering": "engineering",
+    "tmu-business": "business",
+    "tmu-creative": "arts",
+    "york-cs": "cs",
+    "york-schulich": "business",
+    "york-arts": "arts",
+    "carleton-cs": "cs",
+    "carleton-engineering": "engineering",
+    "carleton-sprott": "business",
+    "carleton-publicaffairs": "public-affairs"
+  },
+  "categories": {
+    "cs": {
+      "label": "Computer Science",
+      "careers": [
+        { "id": "swe", "title": "Software Engineer", "startingSalary": 95000, "salaryGrowthRate": 5.0, "note": "Product companies, startups, enterprise tech" },
+        { "id": "ml-engineer", "title": "ML / AI Engineer", "startingSalary": 108000, "salaryGrowthRate": 6.0, "note": "AI labs, LLM startups, research teams" },
+        { "id": "data-scientist", "title": "Data Scientist", "startingSalary": 88000, "salaryGrowthRate": 4.5, "note": "Analytics, ML pipelines, business intelligence" },
+        { "id": "product-manager", "title": "Product Manager", "startingSalary": 92000, "salaryGrowthRate": 5.5, "note": "Tech companies — director path in 6-8 yrs" },
+        { "id": "quant", "title": "Quantitative Analyst", "startingSalary": 118000, "salaryGrowthRate": 7.0, "note": "Hedge funds, prop trading desks, Bay Street" },
+        { "id": "tech-consultant", "title": "Tech Consultant", "startingSalary": 82000, "salaryGrowthRate": 4.0, "note": "Big 4 advisory, systems integration" }
+      ]
+    },
+    "software-eng": {
+      "label": "Software Engineering",
+      "careers": [
+        { "id": "swe", "title": "Software Developer", "startingSalary": 102000, "salaryGrowthRate": 5.0, "note": "Full stack, mobile, systems — strong demand" },
+        { "id": "devops", "title": "DevOps / Platform Engineer", "startingSalary": 98000, "salaryGrowthRate": 5.0, "note": "Cloud infra, CI/CD, site reliability" },
+        { "id": "security-eng", "title": "Security Engineer", "startingSalary": 100000, "salaryGrowthRate": 5.5, "note": "Cybersecurity, pen testing, threat analysis" },
+        { "id": "solutions-arch", "title": "Solutions Architect", "startingSalary": 108000, "salaryGrowthRate": 4.5, "note": "Enterprise software, cloud architecture" },
+        { "id": "eng-manager", "title": "Engineering Manager", "startingSalary": 110000, "salaryGrowthRate": 5.5, "note": "Tech lead → manager path, VP Eng in 8-10 yrs" }
+      ]
+    },
+    "engineering": {
+      "label": "Engineering",
+      "careers": [
+        { "id": "civil-eng", "title": "Civil Engineer", "startingSalary": 72000, "salaryGrowthRate": 3.5, "note": "Infrastructure, municipal works, construction" },
+        { "id": "mechanical-eng", "title": "Mechanical Engineer", "startingSalary": 79000, "salaryGrowthRate": 3.5, "note": "Manufacturing, automotive, aerospace" },
+        { "id": "electrical-eng", "title": "Electrical Engineer", "startingSalary": 83000, "salaryGrowthRate": 4.0, "note": "Power systems, electronics, controls" },
+        { "id": "eng-pm", "title": "Engineering Project Manager", "startingSalary": 82000, "salaryGrowthRate": 4.0, "note": "Construction, infrastructure delivery" },
+        { "id": "eng-consultant", "title": "Engineering Consultant", "startingSalary": 86000, "salaryGrowthRate": 4.5, "note": "Technical advisory, environmental, structural" }
+      ]
+    },
+    "business": {
+      "label": "Business / Commerce",
+      "careers": [
+        { "id": "ib-analyst", "title": "Investment Banking Analyst", "startingSalary": 110000, "salaryGrowthRate": 8.0, "note": "Bay Street / Wall Street — high bonus, brutal hours" },
+        { "id": "consultant", "title": "Management Consultant", "startingSalary": 88000, "salaryGrowthRate": 5.0, "note": "McKinsey, BCG, Bain, Deloitte — MBA often follows" },
+        { "id": "fin-analyst", "title": "Financial Analyst (Corp.)", "startingSalary": 72000, "salaryGrowthRate": 4.0, "note": "FP&A, treasury, corporate finance teams" },
+        { "id": "marketing-mgr", "title": "Marketing Manager", "startingSalary": 65000, "salaryGrowthRate": 3.5, "note": "Brand, digital, growth marketing" },
+        { "id": "accountant-cpa", "title": "CPA / Accountant", "startingSalary": 62000, "salaryGrowthRate": 3.5, "note": "Public accounting — Big 4 or regional firm" },
+        { "id": "entrepreneur", "title": "Founder / Startup", "startingSalary": 52000, "salaryGrowthRate": 8.0, "note": "High variance — includes founder salary; equity upside not modelled" }
+      ]
+    },
+    "finance-math": {
+      "label": "Mathematics / Finance",
+      "careers": [
+        { "id": "actuary", "title": "Actuary", "startingSalary": 76000, "salaryGrowthRate": 4.0, "note": "Insurance, pensions, risk — fellowship exams take 5-10 yrs" },
+        { "id": "quant", "title": "Quantitative Analyst", "startingSalary": 118000, "salaryGrowthRate": 7.0, "note": "Hedge funds, prop trading desks — highest ceiling" },
+        { "id": "data-scientist", "title": "Data Scientist (Fintech)", "startingSalary": 90000, "salaryGrowthRate": 4.5, "note": "Banks, fintech, analytics platforms" },
+        { "id": "risk-analyst", "title": "Risk Analyst", "startingSalary": 78000, "salaryGrowthRate": 4.0, "note": "Credit risk, market risk, compliance" },
+        { "id": "fin-analyst", "title": "Financial Analyst", "startingSalary": 72000, "salaryGrowthRate": 4.0, "note": "Wealth management, corporate finance" }
+      ]
+    },
+    "health": {
+      "label": "Health Sciences",
+      "careers": [
+        { "id": "pharmacist", "title": "Pharmacist", "startingSalary": 96000, "salaryGrowthRate": 2.5, "note": "Retail pharmacy, hospital — PharmD may be needed" },
+        { "id": "nurse-practitioner", "title": "Nurse Practitioner", "startingSalary": 87000, "salaryGrowthRate": 2.5, "note": "Primary care, specialized NP programs" },
+        { "id": "health-admin", "title": "Health Administrator", "startingSalary": 65000, "salaryGrowthRate": 3.5, "note": "Hospital ops, public health agencies" },
+        { "id": "research-coord", "title": "Clinical Research Coordinator", "startingSalary": 56000, "salaryGrowthRate": 3.0, "note": "Academic hospitals, pharma trials" },
+        { "id": "med-doctor", "title": "Physician (after residency)", "startingSalary": 195000, "salaryGrowthRate": 2.0, "note": "Requires MD + 2-5yr residency — salary starts post-residency" }
+      ]
+    },
+    "life-sciences": {
+      "label": "Life Sciences",
+      "careers": [
+        { "id": "research-sci", "title": "Research Scientist", "startingSalary": 58000, "salaryGrowthRate": 3.0, "note": "Academic / government labs — often requires MSc/PhD" },
+        { "id": "biotech-analyst", "title": "Biotech / Pharma Analyst", "startingSalary": 68000, "salaryGrowthRate": 4.0, "note": "Pharmaceutical companies, regulatory affairs" },
+        { "id": "pharmacist", "title": "Pharmacist (PharmD req.)", "startingSalary": 96000, "salaryGrowthRate": 2.5, "note": "Requires additional 2-year PharmD degree" },
+        { "id": "health-admin", "title": "Health Administrator", "startingSalary": 62000, "salaryGrowthRate": 3.5, "note": "Hospitals, regional health authorities" },
+        { "id": "science-teacher", "title": "Science Teacher (BEd req.)", "startingSalary": 52000, "salaryGrowthRate": 2.5, "note": "K-12 — requires concurrent or consecutive BEd" }
+      ]
+    },
+    "arts": {
+      "label": "Arts / Humanities",
+      "careers": [
+        { "id": "gov-analyst", "title": "Government / Policy Analyst", "startingSalary": 58000, "salaryGrowthRate": 3.5, "note": "Federal, provincial, municipal civil service" },
+        { "id": "teacher", "title": "Teacher (BEd req.)", "startingSalary": 52000, "salaryGrowthRate": 2.5, "note": "K-12 education, requires BEd" },
+        { "id": "nonprofit-mgr", "title": "Non-profit Manager", "startingSalary": 50000, "salaryGrowthRate": 2.5, "note": "Program management, advocacy, community orgs" },
+        { "id": "marketing", "title": "Marketing / Comms Coordinator", "startingSalary": 50000, "salaryGrowthRate": 3.0, "note": "Brand, content, social media" },
+        { "id": "journalist", "title": "Journalist / Writer", "startingSalary": 46000, "salaryGrowthRate": 2.0, "note": "Digital media, print, broadcasting" }
+      ]
+    },
+    "public-affairs": {
+      "label": "Public Affairs",
+      "careers": [
+        { "id": "policy-analyst", "title": "Policy Analyst", "startingSalary": 60000, "salaryGrowthRate": 3.5, "note": "Federal / provincial policy offices" },
+        { "id": "gov-relations", "title": "Government Relations Advisor", "startingSalary": 66000, "salaryGrowthRate": 4.0, "note": "Lobbying firms, corporate public affairs" },
+        { "id": "public-servant", "title": "Public Servant (EC / AS)", "startingSalary": 56000, "salaryGrowthRate": 3.0, "note": "Federal/provincial civil service" },
+        { "id": "comms-mgr", "title": "Communications Manager", "startingSalary": 62000, "salaryGrowthRate": 3.5, "note": "Government comms, political offices, PR" }
+      ]
+    }
+  }
+}
